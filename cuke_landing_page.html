@@ -3,51 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>$CUKE Coin</title>
+  <title>$CUKE the Cucumber</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: url('cuke.png') no-repeat center center fixed;
-      background-size: cover;
+      font-family: 'Luckiest Guy', cursive;
+      background: linear-gradient(135deg, #2a003f, #0f3d0f);
       color: #fff;
       text-align: center;
+      background-attachment: fixed;
     }
     header {
       padding: 2rem;
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.7);
+      border-bottom: 4px solid #4b0082;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 4rem;
       margin: 1rem 0;
-      color: #39ff14;
+      color: #32cd32;
+      text-shadow: 3px 3px 0 #000, 0 0 15px #8b0000;
     }
     p.tagline {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       margin-bottom: 2rem;
-      color: #ddd;
+      color: #8b0000;
+      text-shadow: 2px 2px 0 #000, 0 0 10px #32cd32;
     }
     .btn {
       display: inline-block;
       margin: 0.5rem;
       padding: 0.8rem 1.5rem;
       border-radius: 30px;
-      background: gold;
-      color: #000;
+      background: linear-gradient(90deg, #4b0082, #228b22);
+      color: #fff;
       font-weight: bold;
       text-decoration: none;
-      transition: transform 0.2s;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 0 12px rgba(0,0,0,0.8);
     }
     .btn:hover {
-      transform: scale(1.1);
+      transform: scale(1.1) rotate(-1deg);
+      box-shadow: 0 0 18px #8b0000;
     }
     section {
       padding: 3rem 1rem;
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.65);
+      margin: 1rem auto;
+      border-radius: 20px;
+      max-width: 900px;
+      border: 2px solid #4b0082;
     }
     h2 {
-      color: #39ff14;
+      color: #32cd32;
       margin-bottom: 1rem;
+      text-shadow: 2px 2px 0 #000, 0 0 10px #8b0000;
     }
     .roadmap {
       max-width: 600px;
@@ -56,53 +68,91 @@
       background: rgba(255, 255, 255, 0.05);
       padding: 1.5rem;
       border-radius: 12px;
+      border: 1px solid #228b22;
     }
     .roadmap li {
-      margin: 0.5rem 0;
+      margin: 0.7rem 0;
+      color: #8b0000;
+      text-shadow: 1px 1px 0 #000;
     }
     footer {
-      background: rgba(0,0,0,0.8);
+      background: rgba(0,0,0,0.9);
       padding: 1rem;
       font-size: 0.9rem;
-      color: #888;
+      color: #bbb;
+      border-top: 3px solid #228b22;
+    }
+    .wallet {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
     }
     code {
-      background: rgba(255,255,255,0.1);
-      padding: 5px 10px;
+      background: rgba(0,0,0,0.8);
+      padding: 8px 12px;
       border-radius: 5px;
-      display: inline-block;
-      margin: 10px 0;
       font-family: monospace;
-      color: #39ff14;
+      font-size: 1.1rem;
+      color: #32cd32;
+      border: 1px solid #8b0000;
+    }
+    .copy-btn {
+      padding: 6px 12px;
+      border-radius: 5px;
+      border: none;
+      background: #4b0082;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+    .copy-btn:hover {
+      background: #6a0dad;
+    }
+    .character {
+      max-width: 400px;
+      margin: 2rem auto;
+      display: block;
+      border-radius: 20px;
+      border: 3px solid #32cd32;
+      box-shadow: 0 0 25px #4b0082;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>$CUKE Coin</h1>
-    <p class="tagline">The freshest memecoin straight outta the jar 🥒🚀</p>
+    <h1>$CUKE the Cucumber</h1>
+    <p class="tagline">OG vibes • HipHop Hustler • The smokiest memecoin 🥒💨💸</p>
     <a href="#buy" class="btn">How to Buy</a>
-    <a href="https://discord.gg/" class="btn">Join Discord</a>
     <a href="https://t.me/" class="btn">Join Telegram</a>
+    <a href="https://x.com/" class="btn">Follow on X</a>
   </header>
+
+  <!-- Meme Character Integration -->
+  <img src="./3411ff87-5617-48fd-a215-70858b0e928e.png" alt="$CUKE the Cucumber Meme Character" class="character" />
 
   <section id="about">
     <h2>About $CUKE</h2>
     <p>
-      $CUKE is not just a memecoin – it's a lifestyle. Fresh, crunchy, and ready to moon 🌕.
+      $CUKE the Cucumber is the OG of meme coins. Rocking purple fits, red eyes, and green vibes. 
+      Straight smokie-blunt energy, bringing hip-hop culture into the memeconomy.
     </p>
   </section>
 
   <section id="buy">
     <h2>How to Buy $CUKE</h2>
     <p>Contract Address:</p>
-    <code>9S1TFJGiPqiXMEUQNNBz8m2cwqUYqh5bQjedqBKmdrDv</code>
+    <div class="wallet">
+      <code id="wallet">9S1TFJGiPqiXMEUQNNBz8m2cwqUYqh5bQjedqBKmdrDv</code>
+      <button class="copy-btn" onclick="copyWallet()">Copy</button>
+    </div>
     <p>
       Copy this address and import it into your wallet.<br>
-      Trade directly on Raydium or Pump.fun.
+      Trade directly on Raydium.
     </p>
     <a href="https://raydium.io" target="_blank" class="btn">Trade on Raydium</a>
-    <a href="https://pump.fun" target="_blank" class="btn">Buy on Pump.fun</a>
   </section>
 
   <section>
@@ -116,16 +166,25 @@
   <section>
     <h2>Roadmap</h2>
     <ul class="roadmap">
-      <li>✅ Launch $CUKE</li>
-      <li>✅ Website + Community</li>
-      <li>🚀 Listing on DEX</li>
-      <li>🌍 Meme domination</li>
-      <li>🛸 To the moon and beyond</li>
+      <li>✅ Drop the OG $CUKE</li>
+      <li>✅ Build the Fam & Community</li>
+      <li>🚀 List on DEX</li>
+      <li>🌍 Spread OG Cucumber vibes</li>
+      <li>💨 Smoke up the memeconomy</li>
     </ul>
   </section>
 
   <footer>
-    <p>© 2025 $CUKE Coin – Powered by Memes</p>
+    <p>© 2025 $CUKE the Cucumber – Hustler vibes powered by Memes</p>
   </footer>
+
+  <script>
+    function copyWallet() {
+      const wallet = document.getElementById('wallet').innerText;
+      navigator.clipboard.writeText(wallet);
+      alert('Wallet address copied: ' + wallet);
+    }
+  </script>
 </body>
 </html>
+
